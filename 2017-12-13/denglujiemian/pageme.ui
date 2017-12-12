@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PageMe</class>
+ <widget class="QWidget" name="PageMe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1746</width>
+    <height>1552</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}
+
+QScrollBar:vertical {
+      border: none;
+ 	  background-color: rgba(255, 255, 255);
+      width: 4px;
+      margin: 0px 0 0px 0;
+  }
+  QScrollBar::handle:vertical {
+	 border: none;
+     border-radius:2px;
+      background: rgba(154, 154, 154, 150);
+      min-height: 15px;
+  }
+QScrollBar::sub-line:vertical {
+      border: none;
+      height: 0px;
+      subcontrol-position: top;
+      subcontrol-origin: margin;
+  }
+QScrollBar::add-line:vertical {
+      border: none;
+      height: 0px;
+      subcontrol-position: bottom;
+      subcontrol-origin: margin;
+  }
+  QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+	border:none;
+      width: 0px;
+      height: 0px;
+  }
+  QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+      background: none;
+  }
+
+</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>20</y>
+     <width>491</width>
+     <height>431</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <widget class="QPushButton" name="BackBt">
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/ICON/picture/Back.ico);
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">font: 75 14pt &quot;Segoe Print&quot;;</string>
+        </property>
+        <property name="text">
+         <string>生活近距离</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="NewsBt">
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/ICON/picture/xiaoxi.ico);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>1</number>
+      </property>
+      <widget class="QWidget" name="FriendPage">
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>20</y>
+          <width>421</width>
+          <height>361</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QScrollArea" name="FriendscrollArea">
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>417</width>
+              <height>357</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="NewsPage">
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>10</y>
+          <width>421</width>
+          <height>351</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QScrollArea" name="NewsScrollArea">
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents_2">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>417</width>
+              <height>347</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="Page3_Widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>1430</x>
+     <y>530</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QWidget" name="FriendWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>40</y>
+     <width>231</width>
+     <height>141</height>
+    </rect>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>201</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <property name="spacing">
+      <number>6</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <property name="bottomMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="SearchFriend">
+       <property name="text">
+        <string>搜索好友</string>
+       </property>
+       <property name="icon">
+        <iconset>
+         <normaloff>:/new/prefix1/pic/search_query_128px_1063401_easyicon.net.ico</normaloff>:/new/prefix1/pic/search_query_128px_1063401_easyicon.net.ico</iconset>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="AddFriend">
+       <property name="text">
+        <string>添加好友</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(0, 0, 0);</string>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="NewsWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>350</y>
+     <width>158</width>
+     <height>149</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QWidget" name="verticalLayoutWidget_5">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>121</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="NewsVerticalLayout"/>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

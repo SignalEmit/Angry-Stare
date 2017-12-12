@@ -1,0 +1,81 @@
+<RCC>
+    <qresource prefix="/ICON">
+        <file>picture/Addlianxiren.ico</file>
+        <file>picture/Back.ico</file>
+        <file>picture/lianxiren.ico</file>
+        <file>picture/xiaoxi.ico</file>
+        <file>picture/home_128px_1149880_easyicon.net.ico</file>
+        <file>picture/person_people_128px_1189669_easyicon.net.ico</file>
+        <file>picture/good_128px_1150043_easyicon.net.ico</file>
+        <file>sucai/config_set_128px_548300_easyicon.net.ico</file>
+        <file>sucai/add_128px_1206665_easyicon.net.ico</file>
+        <file>sucai/send_email_128px_1190680_easyicon.net.ico</file>
+        <file>picture/down_arrow.ico</file>
+    </qresource>
+    <qresource prefix="/">
+        <file>sucai/contacts_128px_1202898_easyicon.net.ico</file>
+        <file>sucai/entertainment_solitaire_72px_547694_easyicon.net.ico</file>
+        <file>sucai/exchange_128px_1157188_easyicon.net.ico</file>
+        <file>sucai/Fruits_Vegetables_128px_1139668_easyicon.net.ico</file>
+        <file>sucai/job_128px_1192443_easyicon.net.ico</file>
+        <file>sucai/more_128px_1181411_easyicon.net.ico</file>
+        <file>sucai/paperfly_fly_128px_1140542_easyicon.net.ico</file>
+        <file>sucai/scenery_128px_1155521_easyicon.net.ico</file>
+        <file>sucai/Stop_Thinking_About_Her_128px_1073132_easyicon.net.ico</file>
+        <file>sucai/Study_128px_1185819_easyicon.net.ico</file>
+        <file>sucai/HeadPicture.ico</file>
+        <file>FengjingPicture/timg (1).jpg</file>
+        <file>FengjingPicture/timg (2).jpg</file>
+        <file>FengjingPicture/timg (3).jpg</file>
+        <file>FengjingPicture/timg (4).jpg</file>
+        <file>FengjingPicture/timg (5).jpg</file>
+        <file>FengjingPicture/timg (6).jpg</file>
+        <file>FengjingPicture/timg.jpg</file>
+        <file>picture/Dir.ico</file>
+        <file>picture/Picture.ico</file>
+        <file>美工按钮专用图/待发货.png</file>
+        <file>美工按钮专用图/待付款 (1).png</file>
+        <file>美工按钮专用图/待评价.png</file>
+        <file>美工按钮专用图/抵用券.png</file>
+        <file>美工按钮专用图/发布.png</file>
+        <file>美工按钮专用图/更多.png</file>
+        <file>美工按钮专用图/关于我们.png</file>
+        <file>美工按钮专用图/检查更新.png</file>
+        <file>美工按钮专用图/联系客服－联系客服.png</file>
+        <file>美工按钮专用图/评价.png</file>
+        <file>美工按钮专用图/钱包.png</file>
+        <file>美工按钮专用图/设置.png</file>
+        <file>美工按钮专用图/收藏-收藏.png</file>
+        <file>美工按钮专用图/退出.png</file>
+        <file>美工按钮专用图/退款.png</file>
+        <file>美工按钮专用图/我.png</file>
+        <file>美工按钮专用图/我的合作.png</file>
+        <file>美工按钮专用图/账号管理.png</file>
+        <file>美工按钮专用图/待发货 (1).png</file>
+        <file>pic/search_query_128px_1063401_easyicon.net.ico</file>
+        <file>美工按钮专用图/详情.png</file>
+        <file>美工按钮专用图/商品.png</file>
+        <file>Art/SearchPage/搜索_删除历史记录.png</file>
+        <file>Art/SearchPage/搜索_搜索 .png</file>
+        <file>Art/SearchPage/退出.png</file>
+        <file>Art/SearchPage/加.png</file>
+        <file>Art/SearchPage/减.png</file>
+        <file>Art/ProductPage/关注.png</file>
+        <file>Art/ProductPage/关注后.png</file>
+        <file>Art/ProductPage/加入购物车.png</file>
+        <file>Art/ProductPage/立即购买.png</file>
+        <file>Art/ProductPage/联系卖家.png</file>
+        <file>Art/ChatBubbleBox/三角形-右.png</file>
+        <file>Art/ChatBubbleBox/三角形-左.png</file>
+        <file>Art/ProductPage/提交订单.png</file>
+        <file>美工按钮专用图/删 除.png</file>
+        <file>美工按钮专用图/图片未显示-01.png</file>
+        <file>Art/login/密码.png</file>
+        <file>Art/login/昵称.png</file>
+        <file>Art/setting_personal_information/地区.png</file>
+        <file>Art/setting_personal_information/昵称.png</file>
+        <file>Art/setting_personal_information/年龄.png</file>
+        <file>Art/setting_personal_information/性别.png</file>
+        <file>Art/setting_personal_information/姓名.png</file>
+    </qresource>
+</RCC>

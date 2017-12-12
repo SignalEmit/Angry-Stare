@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MySettingPage</class>
+ <widget class="QWidget" name="MySettingPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1067</width>
+    <height>681</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>20</y>
+     <width>471</width>
+     <height>371</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="CloseBt">
+        <property name="styleSheet">
+         <string notr="true">border:none;
+border-image: url(:/ICON/picture/Back.ico);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_2">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>2</number>
+      </property>
+      <widget class="QWidget" name="page_1">
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>40</x>
+          <y>40</y>
+          <width>371</width>
+          <height>301</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QPushButton" name="HeadSettingBt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#c7ff93;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+           </property>
+           <property name="text">
+            <string>头像设置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="MyMesaageBt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#c7ff93;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+           </property>
+           <property name="text">
+            <string>个人信息设置</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_4">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <property name="styleSheet">
+        <string notr="true">#page_2{
+	background-color: rgb(255, 255, 255);}
+QLabel{font: .8em Arial, Tahoma, Verdana;
+      background: #fff url(../images/bg.gif) repeat-x; 
+      color: #777;}</string>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>120</y>
+          <width>321</width>
+          <height>191</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_3">
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>晨博专属APP</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_2">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="text">
+            <string>电话没有</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_3">
+           <property name="text">
+            <string>个性签名：棒棒鸡！！！</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_2">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="PersonalSetting_Page">
+       <property name="styleSheet">
+        <string notr="true">QLineEdit{
+border:none;
+margin-left:10px;
+border-bottom:1px solid red;
+background-color: rgba(0, 0, 0, 0);
+}</string>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>170</x>
+          <y>50</y>
+          <width>160</width>
+          <height>158</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="personlMessage_Verticalayout">
+         <item>
+          <layout class="QFormLayout" name="formLayout">
+           <item row="0" column="0">
+            <widget class="QLabel" name="Nickname_label">
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/Art/setting_personal_information/昵称.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="0" column="1">
+            <widget class="QLineEdit" name="NickNamelineEdit">
+             <property name="styleSheet">
+              <string notr="true"/>
+             </property>
+             <property name="inputMask">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>请输入昵称</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="Name_label">
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/Art/setting_personal_information/姓名.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="1">
+            <widget class="QLineEdit" name="Name_lineEdit">
+             <property name="inputMask">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>请输入姓名</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="Age_label">
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/Art/setting_personal_information/年龄.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1">
+            <widget class="QLineEdit" name="Age_lineEdit">
+             <property name="inputMask">
+              <string/>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>请输入您的年龄</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0">
+            <widget class="QLabel" name="Sex_label">
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/Art/setting_personal_information/性别.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="1">
+            <layout class="QHBoxLayout" name="horizontalLayout_2">
+             <item>
+              <widget class="QRadioButton" name="Man_radioButton">
+               <property name="styleSheet">
+                <string notr="true">margin-left:10px;</string>
+               </property>
+               <property name="text">
+                <string>男</string>
+               </property>
+              </widget>
+             </item>
+             <item>
+              <widget class="QRadioButton" name="Woman_radioButton">
+               <property name="text">
+                <string>女</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="AreaLocation_label">
+             <property name="styleSheet">
+              <string notr="true">border-image: url(:/Art/setting_personal_information/地区.png);</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item row="4" column="1">
+            <widget class="QLineEdit" name="AreaLocation_lineEdit">
+             <property name="inputMask">
+              <string/>
+             </property>
+             <property name="placeholderText">
+              <string>所在地区</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ChangePersonMessageBt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:gray;}</string>
+           </property>
+           <property name="text">
+            <string>确认修改</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QWidget" name="verticalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>30</y>
+          <width>331</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_4">
+         <item>
+          <widget class="QPushButton" name="UpdateBt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:rgb(85, 85, 0);}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+           </property>
+           <property name="text">
+            <string>版本信息及更新</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ClearDateBt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:rgb(85, 85, 0);}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+           </property>
+           <property name="text">
+            <string>清除缓存</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="NewsMessageBt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#55aa7f;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+           </property>
+           <property name="text">
+            <string>新消息通知</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer_3">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

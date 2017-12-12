@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Search</class>
+ <widget class="QWidget" name="Search">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>792</width>
+    <height>538</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QListWidget{
+border:none;
+border-top: 4px solid  qlineargradient(spread:pad, x1:0.5, y1:0, x2:0.5, y2:1, stop:0 rgba(191, 191, 191, 255), stop:1 rgba(255, 255, 255, 255));
+}
+QScrollBar:vertical {
+      border: none;
+ 	  background-color: rgba(255, 255, 255);
+      width: 4px;
+      margin: 0px 0 0px 0;
+  }
+  QScrollBar::handle:vertical {
+	 border: none;
+     border-radius:2px;
+      background: rgba(154, 154, 154, 150);
+      min-height: 15px;
+  }
+QScrollBar::sub-line:vertical {
+      border: none;
+      height: 0px;
+      subcontrol-position: top;
+      subcontrol-origin: margin;
+  }
+QScrollBar::add-line:vertical {
+      border: none;
+      height: 0px;
+      subcontrol-position: bottom;
+      subcontrol-origin: margin;
+  }
+  QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+	border:none;
+      width: 0px;
+      height: 0px;
+  }
+  QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+      background: none;
+  }
+
+</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>20</y>
+     <width>401</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="2">
+     <widget class="QLineEdit" name="SearchLineEdit">
+      <property name="styleSheet">
+       <string notr="true">border:none;
+border-bottom:1px solid #000;
+background-color: #F0F0F0;</string>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <item>
+       <property name="text">
+        <string>全国搜索</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>本地搜索</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>搜索店铺</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QPushButton" name="BackBt">
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Art/SearchPage/退出.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QPushButton" name="SearchBt">
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Art/SearchPage/搜索_搜索 .png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0" colspan="4">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <widget class="QWidget" name="verticalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>361</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QListWidget" name="listWidget"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="ClearListWidget">
+           <property name="styleSheet">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string/>
+           </property>
+           <property name="icon">
+            <iconset resource="nidaye.qrc">
+             <normaloff>:/Art/SearchPage/搜索_删除历史记录.png</normaloff>:/Art/SearchPage/搜索_删除历史记录.png</iconset>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>20</y>
+          <width>351</width>
+          <height>241</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QListWidget" name="SearchListWidget">
+           <property name="viewMode">
+            <enum>QListView::ListMode</enum>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_3">
+       <widget class="QWidget" name="gridLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>381</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="0" column="0">
+          <widget class="QComboBox" name="comboBox_2">
+           <item>
+            <property name="text">
+             <string>综合排序</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>销量</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>新品优先</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>评论数由高到低</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="2">
+          <widget class="QPushButton" name="pushButton_3">
+           <property name="text">
+            <string>销量</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QComboBox" name="comboBox_4">
+           <item>
+            <property name="text">
+             <string>价格由高到低</string>
+            </property>
+           </item>
+           <item>
+            <property name="text">
+             <string>价格由低到高</string>
+            </property>
+           </item>
+          </widget>
+         </item>
+         <item row="0" column="3">
+          <widget class="QPushButton" name="pushButton_4">
+           <property name="text">
+            <string>筛选</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0" colspan="4">
+          <widget class="QScrollArea" name="scrollArea">
+           <property name="horizontalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOff</enum>
+           </property>
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>98</width>
+              <height>28</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="nidaye.qrc"/>
+ </resources>
+ <connections/>
+</ui>

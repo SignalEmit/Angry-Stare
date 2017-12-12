@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Widget</class>
+ <widget class="QWidget" name="Widget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>646</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Widget</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>110</y>
+     <width>671</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>60</x>
+          <y>20</y>
+          <width>491</width>
+          <height>291</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QLabel" name="label_19">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="account_widget" native="true">
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>100</height>
+            </size>
+           </property>
+           <property name="styleSheet">
+            <string notr="true">border-bottom:1px solid gray;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QWidget" name="passward_widget" native="true">
+           <property name="styleSheet">
+            <string notr="true">border-bottom:1px solid gray;</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_18">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="Login">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:rgb(0, 255, 123);}
+</string>
+           </property>
+           <property name="text">
+            <string>登录</string>
+           </property>
+           <property name="checkable">
+            <bool>false</bool>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <spacer name="verticalSpacer">
+           <property name="orientation">
+            <enum>Qt::Vertical</enum>
+           </property>
+           <property name="sizeHint" stdset="0">
+            <size>
+             <width>20</width>
+             <height>40</height>
+            </size>
+           </property>
+          </spacer>
+         </item>
+         <item>
+          <layout class="QHBoxLayout" name="horizontalLayout">
+           <item>
+            <widget class="QPushButton" name="register1">
+             <property name="styleSheet">
+              <string notr="true">border:none;
+color:gray;</string>
+             </property>
+             <property name="text">
+              <string>注册</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QLabel" name="label_2">
+             <property name="maximumSize">
+              <size>
+               <width>1</width>
+               <height>16777215</height>
+              </size>
+             </property>
+             <property name="styleSheet">
+              <string notr="true">background-color:black;</string>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="forgetPWBt">
+             <property name="styleSheet">
+              <string notr="true">border:none;
+color:gray;</string>
+             </property>
+             <property name="text">
+              <string>忘记密码</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_16">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_17">
+           <property name="text">
+            <string/>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_4">
+       <widget class="QWidget" name="gridLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>30</y>
+          <width>601</width>
+          <height>340</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_3">
+         <item row="8" column="0" colspan="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_3">
+           <item>
+            <widget class="QPushButton" name="Ok_RegisterLogInBt">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+             </property>
+             <property name="text">
+              <string>确定</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="backBtPage4">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+             </property>
+             <property name="text">
+              <string>返回</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>密码:</string>
+           </property>
+           <property name="scaledContents">
+            <bool>false</bool>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_10">
+           <property name="text">
+            <string>确认密码:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="0">
+          <widget class="QLabel" name="label_11">
+           <property name="text">
+            <string>手机号:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>账号:</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item row="5" column="1" colspan="2">
+          <widget class="QLineEdit" name="PhoneNumber_RegisterLogIn">
+           <property name="placeholderText">
+            <string>请输入您的手机号码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1" colspan="2">
+          <widget class="QLineEdit" name="PasswordAgain_RegisterLogIn">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>请保证输入密码一致</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QPushButton" name="SendAuthCodeBt__RegisterLogIn">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+           </property>
+           <property name="text">
+            <string>发送验证码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1">
+          <widget class="QLineEdit" name="Account_RegisterLogIn">
+           <property name="placeholderText">
+            <string>请输入您的账号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="2">
+          <widget class="QPushButton" name="Check_RegisterLogInBt">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+           </property>
+           <property name="text">
+            <string>检测是否存在</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1" colspan="2">
+          <widget class="QLineEdit" name="Passward_RegisterLogIn">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>请输入您的密码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLineEdit" name="AuthCode_RegisterLogIn">
+           <property name="placeholderText">
+            <string>请输入验证码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_13">
+           <property name="frameShape">
+            <enum>QFrame::NoFrame</enum>
+           </property>
+           <property name="frameShadow">
+            <enum>QFrame::Plain</enum>
+           </property>
+           <property name="lineWidth">
+            <number>1</number>
+           </property>
+           <property name="text">
+            <string>验证码:</string>
+           </property>
+           <property name="textFormat">
+            <enum>Qt::AutoText</enum>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+           </property>
+           <property name="margin">
+            <number>0</number>
+           </property>
+           <property name="indent">
+            <number>-1</number>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="3">
+          <widget class="QLabel" name="label_14">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:36pt; color:#55ffff;&quot;&gt;注册&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2">
+       <widget class="QWidget" name="gridLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>50</y>
+          <width>431</width>
+          <height>287</height>
+         </rect>
+        </property>
+        <layout class="QGridLayout" name="gridLayout_2">
+         <item row="3" column="0">
+          <widget class="QLabel" name="label_5">
+           <property name="text">
+            <string>确认密码：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="0">
+          <widget class="QLabel" name="label">
+           <property name="text">
+            <string>账号：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="0">
+          <widget class="QLabel" name="label_7">
+           <property name="text">
+            <string>验证码：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="0">
+          <widget class="QLabel" name="label_4">
+           <property name="text">
+            <string>密码：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="0">
+          <widget class="QLabel" name="label_6">
+           <property name="text">
+            <string>手机号：</string>
+           </property>
+          </widget>
+         </item>
+         <item row="8" column="0" colspan="3">
+          <layout class="QHBoxLayout" name="horizontalLayout_2">
+           <item>
+            <widget class="QPushButton" name="Ok_ForgetPassword">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+             </property>
+             <property name="text">
+              <string>确定</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="backBtPage2">
+             <property name="styleSheet">
+              <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+             </property>
+             <property name="text">
+              <string>返回</string>
+             </property>
+            </widget>
+           </item>
+          </layout>
+         </item>
+         <item row="6" column="1">
+          <widget class="QLineEdit" name="lineEdit_5">
+           <property name="placeholderText">
+            <string>请输入验证码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="2" column="1" colspan="2">
+          <widget class="QLineEdit" name="Password_ForgetPassword">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>请输入您要重置的密码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="1" colspan="2">
+          <widget class="QLineEdit" name="PasswordAgain_ForgetPassword">
+           <property name="echoMode">
+            <enum>QLineEdit::Password</enum>
+           </property>
+           <property name="placeholderText">
+            <string>请保证输入密码一致</string>
+           </property>
+          </widget>
+         </item>
+         <item row="6" column="2">
+          <widget class="QPushButton" name="pushButton">
+           <property name="styleSheet">
+            <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}</string>
+           </property>
+           <property name="text">
+            <string>获取验证码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="1" column="1" colspan="2">
+          <widget class="QLineEdit" name="Account_ForgetPassword">
+           <property name="placeholderText">
+            <string>请输入您的账号</string>
+           </property>
+          </widget>
+         </item>
+         <item row="4" column="1" colspan="2">
+          <widget class="QLineEdit" name="PhoneNumber_ForgetPassword">
+           <property name="placeholderText">
+            <string>请输入您的手机号码</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0" colspan="3">
+          <widget class="QLabel" name="label_12">
+           <property name="text">
+            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:36pt; color:#55ffff;&quot;&gt;忘记密码&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>70</y>
+     <width>160</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="account_horizontalLayout">
+    <item>
+     <widget class="QLabel" name="account_phone">
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Art/login/昵称.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="Account_lineedit">
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-color: rgba(0, 0, 0, 0);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>请输入账号</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_3">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>70</y>
+     <width>160</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="passward_horizontalLayout">
+    <item>
+     <widget class="QLabel" name="passward_phone">
+      <property name="styleSheet">
+       <string notr="true">border-image: url(:/Art/login/密码.png);</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="Password_lineedit">
+      <property name="styleSheet">
+       <string notr="true">border:none;
+background-color: rgba(0, 0, 0, 0);</string>
+      </property>
+      <property name="placeholderText">
+       <string>请输入密码</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

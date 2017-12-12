@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OrderForGoods</class>
+ <widget class="QWidget" name="OrderForGoods">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>913</width>
+    <height>669</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{border-style:none;padding:10px;border-radius:5px;color:#1ABC9C;background:#E6F8F5;}
+QPushButton:hover{color:#2EE1C1;background:#FFFFFF;}
+QPushButton:pressed{color:#16A086;background:#A7EEE6;}
+
+QScrollBar:vertical {
+      border: none;
+ 	  background-color: rgba(255, 255, 255);
+      width: 4px;
+      margin: 0px 0 0px 0;
+  }
+  QScrollBar::handle:vertical {
+	 border: none;
+     border-radius:2px;
+      background: rgba(154, 154, 154, 150);
+      min-height: 15px;
+  }
+QScrollBar::sub-line:vertical {
+      border: none;
+      height: 0px;
+      subcontrol-position: top;
+      subcontrol-origin: margin;
+  }
+QScrollBar::add-line:vertical {
+      border: none;
+      height: 0px;
+      subcontrol-position: bottom;
+      subcontrol-origin: margin;
+  }
+  QScrollBar::up-arrow:vertical, QScrollBar::down-arrow:vertical {
+	border:none;
+      width: 0px;
+      height: 0px;
+  }
+  QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+      background: none;
+  }
+
+</string>
+  </property>
+  <widget class="QWidget" name="verticalLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>110</x>
+     <y>80</y>
+     <width>471</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="GoBackBt">
+        <property name="styleSheet">
+         <string notr="true">border-image: url(:/ICON/picture/Back.ico);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QPushButton" name="AllProducts">
+        <property name="styleSheet">
+         <string notr="true">border:none;
+color:red;
+border-bottom:1px solid red;</string>
+        </property>
+        <property name="text">
+         <string>全部</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Obligation">
+        <property name="text">
+         <string>待付款</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="GoodsToBeReceive">
+        <property name="text">
+         <string>待收货</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="GoodsFinish">
+        <property name="text">
+         <string>已完成</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="Canceled">
+        <property name="text">
+         <string>已取消</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="page">
+       <widget class="QWidget" name="verticalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>451</width>
+          <height>271</height>
+         </rect>
+        </property>
+        <layout class="QVBoxLayout" name="verticalLayout_page">
+         <item>
+          <widget class="QScrollArea" name="scrollArea">
+           <property name="verticalScrollBarPolicy">
+            <enum>Qt::ScrollBarAlwaysOn</enum>
+           </property>
+           <property name="widgetResizable">
+            <bool>true</bool>
+           </property>
+           <widget class="QWidget" name="scrollAreaWidgetContents">
+            <property name="geometry">
+             <rect>
+              <x>0</x>
+              <y>0</y>
+              <width>443</width>
+              <height>267</height>
+             </rect>
+            </property>
+           </widget>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page_2"/>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
